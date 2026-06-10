@@ -7,5 +7,6 @@ print(f'A temperatura farenheit eh: {f} F')
 if f < 65:
     print('Ele ira vestir: bermudas')
 else:
+
     print('Ele ira vestir: calça')
 
