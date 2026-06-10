@@ -1,0 +1,14 @@
+mkdir pense-em-python-2-edicao-alien-downey-1
+cd pense-em-python-2-edicao-alien-downey-1
+
+git init
+echo "# pense-em-python-2-edicao-alien-downey-1" >> README.md
+
+git add README.md
+git commit -m "first commit"
+
+git branch -M main
+
+git remote add origin https://github.com/oviccenzo/pense-em-python-2-edicao-alien-downey-1.git
+
+git push -u origin main
