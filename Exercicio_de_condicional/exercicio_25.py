@@ -1,5 +1,5 @@
 # 25. O Peso normal de uma criança pode ser calculado através da fórmula:
-# PesoNormal = idade - 6 / 4.4 + 2.3 * (idade - 6) + 2
+# PesoNormal = idade - 6 / 4.4 + 2.3 * (idade - 6) + 22
 #  Escreva um programa que leia a idade e o peso de uma criança e, se for o caso, imprima
 # uma dessas mensagens de acordo com a quantidade de quilos acima do peso com que a
 # criança esteja:
@@ -13,12 +13,17 @@
 # “Parar de tomar refrigerante e de comer doces.”
 
 idade = int(input('Digite sua idade: '))
+peso_ideal = float(input('Digite seu peso atual: '))
 
-PesoNormal = Idade - 6 / 4.4 + 2.3 * (idade - 6) + 22
+PesoNormal = (idade - 6) / 4.4 + 2.3 * (idade - 6) + 22
 
-if 2 <= idade <= 5:
-    print("Para de tomar refrigerante")
-elif 5 <= idade <= 10:
-    print("Para de comer doces")
+acima_do_peso = peso_ideal - PesoNormal
 
-print("")
+if 2 <= acima_do_peso <= 5:
+    print("Parar de tomar refrigerante")
+elif 5 < acima_do_peso <= 10:
+    print("Parar de comer doces")
+elif acima_do_peso > 10:
+    print("Parar de tomar refrigerante e de comer doces")
+
+print(f'O seu peso ideal eh: {PesoNormal} kg')
