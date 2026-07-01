@@ -1,0 +1,174 @@
+Exercícios de Estruturas Condicionais
+
+1. Um ângulo é chamado agudo se é menor que 90 graus, obtuso se é maior do que 90 graus ou reto caso seja
+exatamente 90 graus. Implemente um programa que receba um ângulo (número real) como entrada
+e responda qual é o tipo de ângulo.
+
+2. O conceito de um estudante é calculado de acordo com a seguinte tabela:
+
+Nota: Maior ou igual a 9.0                    -> Conceito: A
+Nota: Menor que 9.0 mas maior ou igual a 8.0  -> Conceito: B
+Nota: Menor que 8.0 mas maior ou igual a 7.0  -> Conceito: C
+Nota: Menor que 7.0 mas maior ou igual a 6.0  -> Conceito: D
+Nota: Menor que 6.0                           -> Conceito: F
+
+Implemente um programa que receba a nota e devolva o conceito de um aluno.
+
+3. Escreve um programa que solicite três números e informe se eles podem formar os lados de um triângulo.
+
+4. Faça um programa que leia 2 números positivos e imprima o menor deles.
+
+5. Faça um programa que leia 4 números positivos e imprima o menor deles. Use somente duas variáveis.
+
+6. Faça um programa que leia 4 números e informe quantos são maiores que 10. Use somente duas variáveis.
+
+7. Faça um programa que leia um número correspondente a um mês do ano e informe o nome do mês ou se o número
+é inválido (não corresponde a um mês).
+
+8. Faça um programa que peça para o usuário pensar em número de 1 a 4 e depois pergunte se o número é maior que 2
+(S-Sim ou N-Não), e caso seja maior que 2, pergunte se ele é maior que 3, ou caso não seja maior que 2, pergunte
+se é maior que 1. Ao final o programa deve mostrar o número que o usuário pensou.
+
+9. Para ser apta a doar sangue a pessoa deve ter entre 18 e 65 anos e pesar no mínimo 50kg.
+Escreva um programa que leia a idade e o peso de uma pessoa e apresente na tela uma mensagem
+informando se ela pode ser doadora ou não.
+
+10. Uma determinada companhia aérea só contrata aeromoças que preencham os seguintes requisitos:
+
+- Ter idade igual ou superior a 24 anos.
+- Ter altura igual ou superior a 1.70 m.
+- Falar com fluência 2 ou mais idiomas.
+
+Escreva um programa que leia a idade, a altura e a quantidade de idiomas falados com fluência de uma candidata e
+imprima uma mensagem informando se essa candidata atende ou não aos requisitos da companhia aérea.
+
+11. Elabore um programa de cálculo de troco no caixa. O programa deve ler o valor a ser cobrado e a quantidade em
+dinheiro recebida, fornecendo como resposta o valor do troco ou
+uma mensagem com os seguintes dizeres “O dinheiro não é suficiente”.
+
+12. Uma empresa quer dar uma bonificação para determinados funcionários. Deverão receber um bônus de
+R$ 500,00 no salário os funcionários com mais de 50 anos ou que trabalhem na empresa há pelo menos 5 anos.
+Escreva um programa que leia a idade, o tempo de serviço (em anos) e o salário do funcionário e imprima na
+tela o valor do salário a ser recebido.
+
+13. Escreva um programa para calcular o salário semanal de uma pessoa, determinado pelas seguintes condições.
+Se o número de horas trabalhadas for menor ou igual a 40, a pessoa recebe 8 reais por hora trabalhada,
+se não a pessoa recebe 320 reais fixos e mais 12 reais para cada hora trabalhada que excede 40 horas.
+(Exemplo: uma pessoa que trabalha 42 horas deve receber 344 reais). Seu programa deve ler o número de horas
+trabalhadas e deve imprimir na tela o salário semanal.
+
+14. A prefeitura de uma cidade abriu uma linha de crédito para os funcionários estatutários. O valor máximo da
+prestação não poderá ultrapassar 30% do salário bruto. Fazer um programa que permita entrar com o salário
+bruto e o valor da prestação, e informar se o empréstimo pode ou não ser concedido.
+
+15. Escreva um programa que verifique se um ano lido é ano de copa do mundo. Seu programa deve permitir a leitura do
+ano, depois realizar os testes necessários e exibir na tela mensagem de que é ou não ano de copa do mundo.
+Considerando que um ano de copa do mundo é divisível por 2 e não é divisível por 4.
+
+16. Fazer um programa que leia a altura em metros e o sexo de uma pessoa (masculino ou feminino), e calcule e mostre
+o peso ideal, utilizando as seguintes fórmulas:
+• Para homens: (72.7 * altura) - 58
+• Para mulheres: (62.1 * altura) - 44.7
+
+17. Um americano em visita ao Brasil tinha muita dificuldade na hora de escolher entre “bermudas” ou “calças”,
+pois ele não entendia nossa medida de temperatura (celsius). Escreva um programa que, após a entrada da temperatura
+em Celsius (C), escreva a temperatura em Fahrenheits (F) e também o que vestir. Dado que:
+F = (9C + 160)/5;
+Ele irá vestir:
+calças se F < 65,
+bermudas em caso contrário.
+
+18. Em uma competição esportiva o desempenho de uma equipe é medida pela quantidade de medalhas de ouro que a
+equipe conquista. Escreva um algoritmo/programa que leia a quantidade de medalhas de ouro ganhas pela equipe e
+escreva na tela uma mensagem informando o desempenho da equipe de acordo com a tabela abaixo:
+Quantidade de Medalhas de Ouro     Desempenho
+maior ou igual a 30                Ótimo
+maior ou igual a 20 menor que 29   Muito bom
+maior ou igual a 10 menor que 19   Regular
+menor que 10                       Ruim
+
+19.Escreva um programa que determina a data cronologicamente maior de duas datas
+fornecidas pelo usuário. Cada data deve ser fornecida por três valores inteiros onde o
+ primeiro representa um dia, o segundo um mês e o terceiro um ano.
+
+20. Escreva um programa em Linguagem C que solicita ao usuário duas datas (dia, mês, ano),
+onde a primeira data é o dia atual e a segunda é a data de vencimento de suas contas, em
+seguida o seu programa deve imprimir se a conta em questão “está atrasada”, “não está atrasada” ou
+“vence neste dia”. Assuma que o usuário informa duas datas válidas.
+
+21. Escreva um programa que determina quanto tempo (segundos) um corpo leva para cair de uma determinada
+altura (h0 ≥ 0), dada em metros (m), a partir do repouso (v0 = 0). Lembre- sequeh=h0 +v0t+(gt2)/2.
+Assuma:h=0,g=-9,8m/s2.Useafunçãosqrt(x),da biblioteca math.h, para obter a raiz quadrada.
+Seu programa deve pedir que o usuário informe h0 e adverti-lo caso o valor informado seja negativo.
+
+22. Escreva um programa que calcula um reajuste salarial, de acordo com as regras a seguir:
+o Se o salário for menor que R$ 500,00 então o reajuste é de 15%
+o Se o salário estiver entre R$ 500,00 e R$ 1.000,00 então o reajuste é de 8%
+o Se o salário for superior R$ 1.000,00 então o reajuste é de 3%
+
+23.Uma empresa possui um esquema de pontuação que determina o valor de um bônus.
+Essa pontuação é dada através da seguinte fórmula:
+Pontos = Horas extras – 2/3 * Faltas
+Escreva um algoritmo/programa que leia de um empregado,
+as horas extras trabalhadas e as horas de faltas e determine o
+bônus que é dado pela seguinte tabela:
+
+Pontos                                         Bônus
+>40                                           R$ 5.000,00
+Maior que 30 e menor ou igual a 40            R$ 4.000,00
+Maior que 20 e menor ou igual a 30            R$ 3.0000,00
+Maior que 10 e menor ou igual a 20            R$ 2.0000,00
+≤10                                           R$ 1.0000,00
+
+
+24. Um serviço de entrega em domicílio cobra 4 reais para fazer qualquer entrega mais um acréscimo por quilômetro
+dependente da distância (d) até o local da entrega, de acordo com a tabela a seguir:
+Distância (Km)  Acréscimo por quilômetro
+0 <= d <= 3     0,50
+3 <= d <= 6     0,75
+d > 6           1,00
+
+25. O Peso normal de uma criança pode ser calculado através da fórmula:
+Idade − 6
+PesoNormal = 4,4 + 2,3(Idade − 6) + 22
+
+Quantidade de quilos acimo do peso  mensagem
+De 2 a 5                            "Parar de tomar refrigerente."
+Acima de 5 até 10                   "Parar de comer doces."
+Acima de 10                         "Para de tomar refrigerante e de comer doces"
+
+
+26. Ajude um proprietário de cachorro a calcular quantos dias um pacote de ração pode durar.
+Escreva um programa que leia o peso do cachorro em quilos e o peso da embalagem de ração em quilos,
+e calcule e imprima a quantidade de dias que o pacote de ração irá durar. A tabela abaixo indica a
+porção diária de acordo com a faixa de peso do cachorro:
+
+Peso do cachorro em Kg  Porções diárias
+Até 5 kg                60 g
+6 - 10 kg               95 g
+11 - 15 kg              135 g
+16 - 20 kg              170 g
+Acima de 21 kg          215 g
+
+27. Um novo terminal de computador foi instalado na biblioteca para facilitar a consulta de livros.
+A você coube fazer a interface de apresentação. Como parte deste projeto escreva um pequeno programa que
+leia do teclado um valor correspondente à hora do dia (XX h XX min XX seg) e imprima na tela “Bom Dia!”,
+“Boa Tarde!” ou “Boa Noite!” de acordo com o horário. Se o horário estiver compreendido entre 0h e 6h,
+deve imprimir “Sistema Indisponível”.
+
+28. Infrações de trânsito e acidentes em geral estão muitas vezes relacionados com excesso de velocidade.
+Pensando nisso a secretaria do DETRAN reajustou o valor das multas e encomendou a você um programa que calcule os
+novos valores, válidos para as rodovias federais. Se a velocidade do veículo for até a velocidade permitida,
+o condutor não paga multa; caso ela exceda em até 20% a velocidade permitida, o valor da multa é de R$ 250;
+e caso o excesso seja superior à 20% a multa é de R$750. Escreva um programa que leia do teclado a velocidade
+máxima permitida e a velocidade na qual o veículo trafegava, apresentando na tela o valor da multa a ser pago.
+
+29. Uma agência de viagens quer disponibilizar a seus passageiros que chegam ao Brasil um terminal de conversão
+de taxa de câmbio. Tal terminal será utilizado num aeroporto que recebe principalmente passageiros
+norte-americanos, europeus e japoneses. Escreva um programa que leia do teclado a opção desejada: converter dólares,
+euros ou ienes para reais, leia a quantia em moeda estrangeira e apresente na tela o valor dado e seu equivalente em
+reais. Faça um programa que utilize apenas a estrutura if-else e outro que utilize apenas a estrutura switch.
+Considere:
+1,00 DÓLAR = R$ 2,35
+1,00 EURO = R$ 2,98
+1,00 IENE = R$ 0,02
