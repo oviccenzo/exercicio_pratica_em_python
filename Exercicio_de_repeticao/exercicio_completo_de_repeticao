@@ -1,0 +1,194 @@
+Exercícios de Estruturas de Repetição
+
+1. Faça um programa que solicite dois números inteiros positivos e exiba os
+múltiplos de 7 existentes entre estes números. Faça uma versão com cada um dos laços: for, while e do-while.
+
+2. Faça um programa que mostre uma tabela de conversão de graus fahrenheit para centígrados para todos valores
+inteiros de 32 a 80 farenheit, mostrando o valor em centígrados e ao lado o valor em fahrenheit.
+A conversão de graus fahrenheit para centígrados é obtida por fahrenheit= (9*centígrados/5)+32.
+
+3. Altere o programa anterior para que o usuário informe qual o valor inicial e o valor final em farenheit
+e informe também o intervalo entre estes valores para conversão (de um em um, de dois em dois, etc.)
+
+4. Faça um programa que leia 10 valores, um de cada vez, e apresente o maior deles ao final.
+
+5. Escreva um programa que lê uma sequência de números inteiros e imprime qual o maior e qual o
+menor valor dessa seqüência. A seqüência termina com o número 0 (zero).
+
+6. Escreva um programa em linguagem C que determina se um valor informado pelo usuário é um número primo ou não.
+
+7. Escreva um programa que imprime todos os números primos entre 1 e n, onde n é fornecido pelo usuário.
+
+8. O que acontece com um bloco de comandos while que não altera nenhuma das variáveis mencionadas em sua condição?
+
+9. Faça um programa que leia 10 valores, um de cada vez, e conte quantos são positivos, mostrando
+o resultado da contagem ao final.
+
+10. Faça um programa que leia 10 valores, um de cada vez, e calcule a média, mostrando o resultado ao final.
+
+11. Escreva um programa que imprime a soma de todos os números inteiros entre
+A e B (incluindo A e B), onde A e B são fornecidos pelo usuário.
+
+12. Calcule a raiz quadrada de um número inteiro positivo sem usar a função sqrt. Para isso,
+você precisa saber que a raiz quadrada de um número N é igual à quantidade de números ímpares consecutivos
+(a partir do 1) cuja soma é igual a N (ou o mais próxima possível de N). Ou melhor, exemplificando:
+Qual a raiz quadrada de 16? 1 + 3 + 5 + 7 = 16
+4 números ímpares consecutivos foram somados. Então 4 é a raiz quadrada de 16.
+Qual a raiz quadrada de 25? 1 + 3 + 5 + 7 + 9 = 25
+5 números ímpares consecutivos foram somados. Então 5 é a raiz quadrada de 25.
+Qual a raiz quadrada de 36? 1 + 3 + 5 + 7 + 9 + 11 = 36
+6 números ímpares consecutivos foram somados. E 6 é a raiz quadrada de 36.
+Qual a raiz quadrada de 30? A raiz quadrada inteira de 30 é 5 (aproximando para baixo),
+porque 25 < 30 < 36, logo a parte inteira da raiz quadrada de 30 é igual à raiz quadrada de 25.
+
+13. Escreva um programa que leia números inteiros até que a soma de tais números totalize no mínimo 100.
+Devem ser lidos tantos valores quantos necessários para que o limite seja atingido ou superado.
+Quando isto ocorrer, o programa também deve exibir quantos números foram lidos e sua média.
+
+14. Escreva um programa que leia a nota final um número indeterminado de alunos, e
+escreva na tela a situação de cada um. “APROVADO” se NF >= 7; “EM EXAME” se 4 <= NF < 7; “REPROVADO” se NF < 4.
+O programa deve ser encerrado se for digitada uma nota final fora do intervalo entre 0 e 10.
+
+15. Fazer um programa que leia um valor n e calcule e mostre o resultado da soma dos n primeiros termos da serie abaixo:
+S2=1+2+3+4+L+ n 2468 2n
+
+16. Escreva um programa que leia o salário de uma pessoa, a quantidade de contas (despesas) que uma pessoa precisa
+pagar em um mês e, para cada conta, leia o valor a ser pago. O programa deve somar todos os valores de contas que
+a pessoa necessita pagar e depois verificar se a diferença entre o salário da pessoa e o valor de todas as despesas
+que deve pagar no mês é positiva. Se a diferença (salário – despesas) for positiva imprimir este valor da diferença
+na tela. Se a diferença for negativa imprimir a mensagem “reduzir despesas”.
+
+17. Escreva um programa que leia dois números inteiros e faça a multiplicação de um número pelo outro sem utilizar
+o operador de multiplicação (*). Imprimir na tela o valor encontrado.
+Obs: Lembrar que uma multiplicação pode ser definida por uma sucessão de somas.
+
+18. Deseja-se fazer uma pesquisa a respeito do consumo mensal de energia elétrica em uma determinada
+cidade. Para isso são fornecidos os seguintes dados de 500 consumidores:
+• quantidade de kWh consumidos durante o mês;
+• código do tipo de consumidor (1 - residencial, 2 - comercial, 3 - industrial).
+Calcular:
+a) a média de consumo residencial;
+b) a media de consumo comercial;
+c) a média de consumo industrial;
+d) o total de consumo para cada um dos tipos de consumidores;
+
+19. Escreva um programa que leia n números inteiros positivos fornecidos e imprima na tela
+uma mensagem informando se o número é ou não perfeito.Obs.: Número perfeito é aquele cuja soma
+de seus divisores, exceto ele próprio, é igual ao número.
+Ex.: 6 = 1 + 2 + 3.
+
+20. Escreva um programa que leia dois números inteiros e faça a multiplicação de um número pelo outro sem
+utilizar o operador de multiplicação (*). Imprimir na tela o valor encontrado.
+
+21. Em uma faculdade foram entrevistados 500 alunos. De cada um deles foram colhidas as seguintes informações:
+o código do curso que frequenta (1-engenharia; 2-computação; 3-matemática) e a idade. Faça um programa que processe
+estes dados e que forneça as seguintes informações:
+a) número de alunos por curso;
+b) número de alunos com idade entre 20 e 25 anos, por curso;
+c) o curso com o aluno mais velho e a idade deste aluno, e
+d) o curso com menor média de idade.
+
+22. Uma fábrica tem um vendedor que recebe uma comissão calculada a partir do número de itens de um pedido,
+segundo os seguintes critérios:
+• para pedidos com menos de 20 itens, a comissão é de 10% do valor total do pedido;
+• para pedidos de 20 a 49 itens, a comissão é de 15% do valor total do pedido;
+• para pedidos de 50 a 74 itens, a comissão é de 20% do valor total do pedido;
+• para pedidos iguais ou superiores a 75 itens, a comissão é de 25%.
+Escreva um programa que processe N pedidos vinculados a esse vendedor (N deve ser lido, portanto).
+Para cada pedido o programa deve ler a quantidade de itens vendidos e o valor total. O programa deve informar:
+• A soma total das comissões;
+• A média de itens vendidos;
+• Porcentagem de pedidos com menos de 20 itens.
+
+23. Escreva um programa que leia a quantidade de pessoas entrevistadas. Em seguida, para cada pessoa
+leia a idade
+Em seguida, para cada pessoa
+leia a idade
+• A média de idade das pessoas
+• A média de idade das mulheres;
+• A média de idade dos homens;
+• A quantidade de pessoas em cada faixa etárias segundo a tabela a seguir:
+Faixa etaria  Idade
+1             Até 15 anos
+2             De 16 a 30 anos
+3             De 31 a 45 anos
+4             De 46 a 60 anos
+5             Acimas de 60 anos
+
+• A porcentagem de mulheres da segunda faixa etária
+
+24. Escreva um programa que leia as 50 notas de uma avaliação dos alunos que cursam uma
+ disciplina de algoritmos, calcule e imprima na tela:
+• quantidade de notas maiores ou iguais a 7;
+• a porcentagem de notas maiores ou iguais a 7;
+• quantidade de notas maiores ou iguais a 4 e menores que 7;
+• a porcentagem de notas maiores ou iguais a 4 e menores que 7;
+• quantidade de notas menores que 4;
+• a porcentagem de notas menores que 4;
+• a média da turma na avaliação.
+
+25. Escreva um programa que calcule e apresente na tela a área de cada círculo através da fórmula A = PI * R * R,
+onde R (o valor que deverá ser digitado pelo usuário) representa o raio do círculo e PI é o número 3,14.
+Repetir o processo enquanto R for maior que 0.
+
+26. Faça um programa que leia uma quantidade não determinada de números inteiros.
+Calcule a quantidade de números positivos e negativos. O número que encerrará a leitura será zero.
+
+27. Adaptar o programa desenvolvido acima para que ela calcule o percentual dos valores positivos e
+ negativos em relação ao total de valores fornecidos.
+
+28. Escreva um programa que leia um número indeterminado de notas entre 0.0 e 10.0. Ao final imprima a
+quantidade de notas maiores ou iguais a 7. A digitação deve ser encerrada quando for digitada uma nota inválida.
+
+29. Foi feita uma pesquisa entre os habitantes de uma região. Foram coletados os dados de idade e
+ quantidade de filhos. Fazer um programa que informe:
+• a média de idade do grupo;
+• quantidade de pessoas com mais de 5 filhos;
+• porcentagem de pessoas com menos de 20 anos e com filhos;
+• quantidade de pessoas entrevistadas;
+O programa finalizará a leitura dos dados quando for digitado um valor negativo para a idade.
+
+30. A fábrica WK produz uma quantidade de automóveis por dia e deseja fazer um levantamento sobre essa produção.
+Escreva um programa que leia a quantidade de automóveis produzida diariamente, enquanto não for digitado um número
+negativo. Ao final o programa deve mostrar na tela a quantidade total de automóveis produzida, a quantidade de dias
+ que foi considerada (ou seja, é a quantidade de números digitados), e a quantidade média de carros produzida por dia.
+
+31. Professores preocupados com o número de faltas de seus alunos resolveram pedir para que esses alunos escrevessem
+ um programa para calcular a média de faltas dos alunos de uma determinada turma. Imagine que você é um aluno dessa
+ turma e tem como tarefa escrever tal programa. Esse programa deve ler a quantidade de faltas dos alunos dessa turma
+ (permitir a leitura enquanto for digitado um número positivo para a quantidade de faltas). Ao final imprimir a
+ quantidade média de faltas e o número de alunos que participaram dessa pesquisa.
+
+32. Faça um programa que leia uma quantidade não determinada de números positivos. Calcule a média dos valores
+pares, a média de valores ímpares e a média geral dos números lidos. A leitura encerrará quando for digitado
+um valor menor ou igual a zero.
+
+33. Considere um cinema a respeito do qual foi feita uma pesquisa de qualidade. Certo dia, cada
+espectador respondeu a um questionário, no qual constava sua opinião em relação ao filme, segundo as seguintes notas:
+
+Nota  Significado
+1     Ótimo
+2     Regular
+3     Ruim
+
+Quando for digitada uma nota inválida, significa que a digitação dos dados chegou ao fim.
+34. Um grupo de professores deseja fazer uma festa no feriado. Foi solicitado aos docentes
+que informassem os seguintes dados:
+- A escolha do lugar entre as opções ‘p’ (praia) ou ‘h’ (hotel fazenda);
+- A escolha do tipo de comida entre as opções ‘c’ (churrasco) ou ‘f’ (feijoada) ou ‘m’ (massa);
+- A escolha do dia preferido entre as opções ‘s’ (sábado) ou ‘d’ (domingo).
+
+Sua tarefa é fazer um programa que leia as opções de uma quantidade indeterminada de professores que votaram
+e imprimir na tela as opções campeãs (lugar, tipo de comida e dia preferido). O programa deve perguntar se
+deseja continuar a cada ciclo de repetição.
+
+35. Você passou um questionário onde a primeira questão perguntava a um grupo indeterminado de pessoas qual a
+freqüência com que eles fazem exercícios, sendo as respostas possíveis: 0 – nunca; 1 – poucas vezes; 2 – muitas vezes.
+Faça um programa que leia as respostas desta primeira questão, ele deve se encerrar se a resposta for -1.
+ O programa deve imprimir na tela:
+ Quantos responderam “nunca”, quantos responderam “poucas vezes” e quantos responderam “muitas vezes”.
+ Quantos responderam o questionário.
+ Qual foi a porcentagem de respostas “nunca”, “poucas vezes” e “muitas vezes”.
+
+36. Reescreva o programa anterior proposto número 6 incluindo uma validação na leitura da resposta de
+forma que enquanto o usuário não digitar um número considerado válido (0, 1, 2 ou -1), fica repetindo a leitura.
